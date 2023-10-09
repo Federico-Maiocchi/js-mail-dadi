@@ -5,16 +5,19 @@
 let inserisciMail = prompt ('Ciao coso/a! Inserisci la tua mail!');
 console.log("Mail inserità dall'utente " + inserisciMail)
 
-// let mailUser = inserisciMail.value
-// console.log(mailUser)
-
 // lista di mail salvate nel database
-const arrayMailUtenti = ['luca@gmail.com', 'giorgio@gmail.com', 'filo@gmail.com', 'ele@gmail.com', 'ale@gmail.com']
+const arrayMailUtenti = [
+    'luca@gmail.com',
+    'giorgio@gmail.com',
+    'filo@gmail.com',
+    'ele@gmail.com', 
+    'ale@gmail.com'
+];
 
 // console.log(arrayMailUtenti);
 const lunghezzaMail = arrayMailUtenti.length;
 
-
+// messaggio di mail non corretta
 let mailNotacpt
 let message = 'Mi disp ma la non è stata accettata'
 
