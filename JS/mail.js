@@ -1,10 +1,5 @@
 // console.log('ciao')
 
-
-// inserimento mail utente
-let inserisciMail = prompt ('Ciao coso/a! Inserisci la tua mail!');
-console.log("Mail inserità dall'utente " + inserisciMail);
-
 // lista di mail salvate nel database
 const arrayMailUtenti = [
     'luca@gmail.com',
@@ -16,6 +11,10 @@ const arrayMailUtenti = [
 
 // console.log(arrayMailUtenti);
 const lunghezzaMail = arrayMailUtenti.length;
+
+// inserimento mail utente
+let inserisciMail = prompt ('Ciao coso/a! Inserisci la tua mail!');
+console.log("Mail inserità dall'utente " + inserisciMail);
 
 // messaggio di mail non corretta
 let mailNotacpt;
