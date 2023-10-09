@@ -3,7 +3,7 @@
 
 // inserimento mail utente
 let inserisciMail = prompt ('Ciao coso/a! Inserisci la tua mail!');
-console.log("Mail inserità dall'utente " + inserisciMail)
+console.log("Mail inserità dall'utente " + inserisciMail);
 
 // lista di mail salvate nel database
 const arrayMailUtenti = [
@@ -18,13 +18,13 @@ const arrayMailUtenti = [
 const lunghezzaMail = arrayMailUtenti.length;
 
 // messaggio di mail non corretta
-let mailNotacpt
-let message = 'Mi disp ma la non è stata accettata'
+let mailNotacpt;
+let message = 'Mi disp ma la non è stata accettata';
 
 // ciclo di controllo delle mail
 for (let i = 0; i < arrayMailUtenti.length; i++) {
     
-    const mailCorrente = arrayMailUtenti[i]
+    const mailCorrente = arrayMailUtenti[i];
     // console.log(i, mailCorrente )
 
     if ( inserisciMail === mailCorrente) {
@@ -34,5 +34,5 @@ for (let i = 0; i < arrayMailUtenti.length; i++) {
     }
  }
 
- console.log(message)
- alert(message)
+ console.log(message);
+ alert(message);

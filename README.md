@@ -9,10 +9,13 @@
 
 # Giocare a dadi con il pc
 
-- generare un numero a caso per il giocatore
-- generare un numero a caso per il pc
-- creare una lista da 1 a 6 
-  - mettere tutto in un form 
-    - SE i numeri del giocatore sono più alti del pc, il giocatore ha vinto
-    - ALTRIMENTI SE i numeri del pc sono più grandi del giocatore, il giocatore ha perso
-    - ALtrimenti SE i numeri del giocatore e del pc sono gli stessi, è parità
+- metter un pulsante per iniziare a giocare
+- tramite il click del pulsante avverrano le seguenti azioni:
+    - verrano generati dei numeri a caso per il giocatore
+    - verranno generati dei numeri a casa per il computer
+- ci saranno 3 risultati diversi:
+    - SE il numero del giocatore è più alto del computer, il giocatore ha vinto
+    - ALTRIMENTI SE il numero del pc è più alto del giocatore, il giocatore ha perso
+    - ALTRIMENTI se i numeri del computer e del giocatori saranno uguali, si ha un pareggio
+
+- è stato implementato un messaggio motivazionale che cambia in base ai risultati della partita
