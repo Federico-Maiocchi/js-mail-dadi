@@ -15,7 +15,7 @@ buttonDocElement.addEventListener ('click', function () {
 
     let result ;
 
-    let message;
+    let message = '';
     
     if(giocatore > computer){
         result = 'hai vinto';
